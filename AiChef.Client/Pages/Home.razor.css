@@ -1,0 +1,55 @@
+﻿.page {
+    background-image: url(images/aichef-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: var(--bs-light);
+    font-size: 1.2rem;
+    background-color: green;
+}
+
+.pagestyle {
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(5px) brightness(40%);
+    height: 100%;
+}
+
+/*grows the main to full page*/
+main {
+    flex: 1 0 auto;
+}
+
+.landingPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tagline{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+/*pushes footer to bottom of page*/
+footer {
+    flex-shrink: 0;
+}
+
+/*a {
+    color: #fff;
+    text-decoration: none;
+}
+
+    a:visited {
+        color: #fff;
+    }
+
+    a:hover {
+        cursor: pointer;
+    }*/

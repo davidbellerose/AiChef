@@ -1,0 +1,33 @@
+﻿This project was built using the Blazor WebAssembly App template from the
+.NET 7 SDK. In .NET 8, the Blazor templates changed a bit - the closest 
+equivalent in the .NET 8 templates would be Blazor Web App and 
+selecting WebAssembly as the interactive render mode with the 
+interactivity location set to Global. 
+
+With the .NET 8 template, the project structure will be a bit 
+different. In .NET 8, there is no "Shared" project - 
+just a Client and Server project, where the "shared" items 
+must go in the Client project.
+
+******************************************************
+Chef Bot
+Chef Droid
+Robo Chef
+Speed Chef
+Robo Recipe
+Recipe Droid
+Open Chef
+Recipe Meistro
+Meistro Chef
+Recipe Generator
+AI CookBook
+*******************************************************
+TODO
+*****************************************************
+
+maybe create db to save recipes "my recipes"
+	would need categories (favorites, vegan, dairy free, gluten free, brunch)
+		maybe try many to many catagories with drag and drop
+		like my many to many snippit
+	filter by categories and meals
+	rating? comments?

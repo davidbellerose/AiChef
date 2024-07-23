@@ -1,0 +1,8 @@
+﻿.topNavbg {
+    background-color: var(--head-color);
+    color: #fff!important;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #fff !important;
+}

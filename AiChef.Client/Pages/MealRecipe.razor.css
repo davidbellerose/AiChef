@@ -1,0 +1,27 @@
+﻿.recipeImage{
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.instructions ul li{
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 992px){
+    .recipeImage {
+        max-height: 450px;
+        max-width: 450px;
+    }
+
+    .container{
+        width: 80%;
+    }
+}
+
+@media (max-width: 992px) {
+
+    container {
+        width: 80%;
+    }
+}

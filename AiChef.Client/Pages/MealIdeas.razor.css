@@ -1,0 +1,8 @@
+﻿.list-group-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,24 @@
+﻿.btn-outline-success, .btn-outline-success:active, .btn-outline-success:focus {
+    color: var(--head-color);
+    border-color: var(--head-color);
+    background-color: #fff;
+}
+
+    .btn-outline-success:hover {
+        color: #fff;
+        border-color: var(--head-color);
+        background-color: var(--head-color);
+    }
+
+.btn-outline-danger, .btn-outline-danger:active, .btn-outline-danger:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    background-color: #fff;
+}
+
+    .btn-outline-danger:hover {
+        color: #fff;
+        border-color: var(--accent-color);
+        background-color: var(--accent-color);
+    }
+
