@@ -10,6 +10,8 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["AiChef.Server/AiChef.Server.csproj", "AiChef.Server/"]
+COPY ["AiChef.Client/AiChef.Client.csproj", "AiChef.Client/"]
+COPY ["AiChef.Shared/AiChef.Shared.csproj", "AiChef.Shared/"]
 RUN dotnet restore "./AiChef.Server/AiChef.Server.csproj"
 COPY . .
 WORKDIR "/src/AiChef.Server"
